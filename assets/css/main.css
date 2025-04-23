@@ -2063,36 +2063,3 @@ section,
   box-shadow: 0 8px 25px rgba(255, 102, 0, 0.4); /* soft orange glow */
   cursor: pointer;
 }
-
-/* dark/lightMode */
-
-:root {
-  --bg-color: #ffffff;
-  --text-color: #000000;
-  --card-bg: #f8f9fa;
-  --nav-bg: #ffffff;
-}
-
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.navbar, .header {
-  background-color: var(--nav-bg);
-}
-
-.skill-icon-box,
-.card,
-.section-title {
-  background-color: var(--card-bg);
-  transition: background-color 0.3s;
-}
-
-body.dark-mode {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --card-bg: #1e1e1e;
-  --nav-bg: #1c1c1c;
-}
