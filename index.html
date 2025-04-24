@@ -457,32 +457,38 @@ Continuously refining my skills, I focus on creating modern, user-friendly, and 
         <div class="contact-form card" data-aos="fade-up" data-aos-delay="300">
           <div class="card-body p-4 p-lg-5">
 
-            <!-- ✅ Formsubmit Version -->
-           <form action="https://formsubmit.co/mubarekj71@gmail.com" method="POST">
+            <!-- ✅ Formsubmit Form -->
+          
+<!-- Contact Section -->
+<form action="https://formsubmit.co/tesuve" method="POST">
+  <!-- Redirect to thank you page after submit -->
+  <input type="hidden" name="_next" value="https://mubarekdev.pages.dev/thank-you.html">
+  <!-- Disable Captcha -->
+  <input type="hidden" name="_captcha" value="false">
+  <!-- Table-style email body -->
+  <input type="hidden" name="_template" value="table">
+  <!-- Honeypot field -->
+  <input type="text" name="_honey" style="display:none">
 
+  <div class="row gy-4">
+    <div class="col-12">
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    </div>
+    <div class="col-12">
+      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+    </div>
+    <div class="col-12">
+      <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+    </div>
+    <div class="col-12">
+      <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+    </div>
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-submit w-100">Submit Message</button>
+    </div>
+  </div>
+</form>
 
-              <div class="row gy-4">
-                <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <button type="submit" class="btn btn-submit w-100">Submit Message</button>
-                </div>
-              </div>
-            </form>
             <!-- /Formsubmit Form -->
 
           </div>
